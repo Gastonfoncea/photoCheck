@@ -17,14 +17,21 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         
         self.window = UIWindow(windowScene: windowScene)
         
-        let vc = HomeViewController()
+        let homeVC = HomeViewController()
+        homeVC.title = "Home"
+        homeVC.tabBarItem.image = UIImage(systemName: "house")
         
-        let nav = UINavigationController(rootViewController: vc)
+        let settingsVC = SettingsViewController()
+        settingsVC.title = "Settings"
+        settingsVC.tabBarItem.image = UIImage(systemName: "gearshape")
         
-        self.window?.rootViewController = nav
+        let homeNav = UINavigationController(rootViewController: homeVC)
         
-        window?.makeKeyAndVisible()
+        let tabBarController = TabBarController()
+        tabBarController.viewControllers =  [homeNav,settingsVC]
         
+        self.window?.rootViewController = tabBarController
+        self.window?.makeKeyAndVisible()
         
     }
 

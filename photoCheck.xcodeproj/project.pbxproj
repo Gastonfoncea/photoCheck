@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5125E7262C6D5D5E00903AFC /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5125E7252C6D5D5E00903AFC /* ProfileViewController.swift */; };
+		5125E7282C6D5DAD00903AFC /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5125E7272C6D5DAD00903AFC /* SettingsViewController.swift */; };
+		5125E72C2C6D5DFE00903AFC /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5125E72B2C6D5DFE00903AFC /* TabBarController.swift */; };
 		514AC1EE2C46E27B006E6694 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514AC1ED2C46E27B006E6694 /* AppDelegate.swift */; };
 		514AC1F02C46E27B006E6694 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514AC1EF2C46E27B006E6694 /* SceneDelegate.swift */; };
 		514AC1F22C46E27B006E6694 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 514AC1F12C46E27B006E6694 /* HomeViewController.swift */; };
@@ -25,6 +28,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5125E7252C6D5D5E00903AFC /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		5125E7272C6D5DAD00903AFC /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		5125E72B2C6D5DFE00903AFC /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		514AC1EA2C46E27B006E6694 /* photoCheck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = photoCheck.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		514AC1ED2C46E27B006E6694 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		514AC1EF2C46E27B006E6694 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +61,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5125E7242C6D5D3700903AFC /* SubViews */ = {
+			isa = PBXGroup;
+			children = (
+				5125E7252C6D5D5E00903AFC /* ProfileViewController.swift */,
+				5125E7272C6D5DAD00903AFC /* SettingsViewController.swift */,
+				5125E72B2C6D5DFE00903AFC /* TabBarController.swift */,
+			);
+			path = SubViews;
+			sourceTree = "<group>";
+		};
 		514AC1E12C46E27B006E6694 = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +159,7 @@
 			children = (
 				514AC1F12C46E27B006E6694 /* HomeViewController.swift */,
 				514AC20F2C46FA83006E6694 /* Components */,
+				5125E7242C6D5D3700903AFC /* SubViews */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -255,9 +272,12 @@
 				514AC21A2C471CC5006E6694 /* ProtocolViewModel.swift in Sources */,
 				514AC20E2C46F277006E6694 /* HomeViewModel.swift in Sources */,
 				514AC2112C46FA94006E6694 /* PhotoView.swift in Sources */,
+				5125E7262C6D5D5E00903AFC /* ProfileViewController.swift in Sources */,
 				514AC21C2C4720F3006E6694 /* Extensions.swift in Sources */,
 				514AC2072C46E47A006E6694 /* Service.swift in Sources */,
 				514AC1EE2C46E27B006E6694 /* AppDelegate.swift in Sources */,
+				5125E7282C6D5DAD00903AFC /* SettingsViewController.swift in Sources */,
+				5125E72C2C6D5DFE00903AFC /* TabBarController.swift in Sources */,
 				514AC20C2C46EC48006E6694 /* PhotoModel.swift in Sources */,
 				514AC1F02C46E27B006E6694 /* SceneDelegate.swift in Sources */,
 			);
